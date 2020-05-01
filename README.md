@@ -1,4 +1,4 @@
-# java-for-dummies
+# Java-for-dummies
 
 Keep the track of tutorial files uploaded daywise and learn java
 
@@ -24,7 +24,7 @@ https://www.eclipse.org/downloads/
 4) Create a new java class with a specific pakage name 
 5 ) start coding you are good to go
 
-## java ?
+## Java ?
 
 Java is a general-purpose programming language that is class-based, object-oriented, and designed to have as few implementation dependencies as possible.
 
