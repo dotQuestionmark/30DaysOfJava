@@ -2,6 +2,8 @@
 
 Keep the track of tutorial files uploaded daywise and learn java
 
+Contributions guidelines can be found [here.](CONTRIBUTING.md)
+
 ## Setting up JDK
 
 ```
@@ -29,3 +31,5 @@ https://www.eclipse.org/downloads/
 Java is a general-purpose programming language that is class-based, object-oriented, and designed to have as few implementation dependencies as possible.
 
 ### Stable release: Java SE 14 / March 17, 2020; 
+
+All the projects are licenced under [GNU GENERAL PUBLIC LICENSE](LICENSE)
