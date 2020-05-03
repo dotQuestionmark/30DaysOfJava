@@ -1,0 +1,21 @@
+Q1) Task one would be to study about the string compare function and try to impliment it
+Q2) Task to will be that you have to genrate a staircase patter by taking (n) as input and where n=lenght of the stair case 
+for EX:- n=6 so   # 
+                 ## 
+                ### 
+               #### 
+              ##### 
+             ######
+
+
+	      
+
+Q3) Task to will be that you have to genrate a staircase patter by taking (n) as input and where n=lenght of the stair case
+for EX:- n=6 so
+
+     #
+    # #
+   # # #
+  # # # #
+ # # # # #
+# # # # # #
