@@ -1,0 +1,1 @@
+Write a switch case program for all the three sorting algos learned todat (insertion sort , bubble sort and merge sort)!
