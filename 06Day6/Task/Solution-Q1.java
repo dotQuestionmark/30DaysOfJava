@@ -25,6 +25,10 @@ public class Files {
         } catch (Exception e) {
             System.out.println("Error!");
         }
+
+	Scanner in= new Scanner(System.in);
+	str pass= in.nextInt(); //input password
+
 // Specify the path of the file here
 		File file = new File("D:\\JAVA\\newfile.txt");
 		BufferedInputStream bis = null;
