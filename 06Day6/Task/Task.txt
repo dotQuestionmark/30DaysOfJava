@@ -1,0 +1,2 @@
+Todays task would be to write a program that takes input from a user and stores that into a file and then asks for a password from user (after this convert that file to read only mode) 
+now if the user waants to write into the file again he must put the password correctly and if the enterd password is correct then only convert the file to writable mode again and then again let the user enter values into the file. And this process countinues.
