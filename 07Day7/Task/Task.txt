@@ -1,0 +1,1 @@
+Todays task would be to understand and try to impliment the working of inheritance
