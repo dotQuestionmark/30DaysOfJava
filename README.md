@@ -11,7 +11,7 @@ https://www.oracle.com/java/technologies/javase-jdk13-downloads.html
 ```
 
 1) visit this site and download the latest version of jdk 
-2) Second go to you system enviorment settings and copy paste the past of your jdk folder till bin there
+2) Second go to your system enviorment settings and copy paste the path of your jdk folder till bin there
 3) to check run java command on command promt if it runs you are good to goo
 
 ## Setting up an IDE (ECLIPSE)
@@ -23,8 +23,8 @@ https://www.eclipse.org/downloads/
 1) visit this website and download the ide for free
 2) while downloading choose java devloper option that would be sufficient for beginner level
 3) After downloading go to new and select new project (JAVA)
-4) Create a new java class with a specific pakage name 
-5 ) start coding you are good to go
+4) Create a new java class with a specific pakage name
+5) start coding you are good to go
 
 ## Java ?
 
