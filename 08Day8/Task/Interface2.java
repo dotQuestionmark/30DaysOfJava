@@ -25,3 +25,16 @@ class Bicycle implements Vehicle{
 
         speed = speed + increment;
     }
+     // to decrease speed
+    @Override
+    public void applyBrakes(int decrement){
+
+        speed = speed - decrement;
+    }
+
+    public void printStates() {
+         System.out.println("speed: " + speed
+              + " gear: " + gear);
+    }
+}
+
