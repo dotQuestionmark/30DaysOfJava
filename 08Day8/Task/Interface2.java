@@ -37,4 +37,15 @@ class Bicycle implements Vehicle{
               + " gear: " + gear);
     }
 }
-
+class Bike implements Vehicle { 
+      
+    int speed; 
+    int gear; 
+      
+    // to change gear 
+    @Override
+    public void changeGear(int newGear){ 
+          
+        gear = newGear; 
+    } 
+      
