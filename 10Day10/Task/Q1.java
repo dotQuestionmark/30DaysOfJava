@@ -26,3 +26,8 @@ class Animals{
     System.out.println("This is parent class.");
   }
 }
+class Dogs extends Animals{
+  public void sound(){
+    System.out.println("Dogs bark");
+  }
+}
