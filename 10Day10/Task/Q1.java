@@ -41,3 +41,13 @@ class Monkeys extends Animals{
     System.out.println("Monkeys whoop.");
   }
 }
+class m{
+public static void main(String[] args){
+  Animals d = new Dogs();
+  Animals c = new Cats();
+  Animals m = new Monkeys();
+  d.sound();
+  c.sound();
+  m.sound();
+}
+}
