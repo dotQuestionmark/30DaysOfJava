@@ -31,3 +31,8 @@ class Dogs extends Animals{
     System.out.println("Dogs bark");
   }
 }
+class Cats extends Animals{
+  public void sound(){
+    System.out.println("Cats meow");
+  }
+}
