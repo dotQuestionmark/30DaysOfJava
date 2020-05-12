@@ -17,4 +17,11 @@ class C
 		System.out.println("Class C");
 	}
 }
+class A extends B,C
+{
+	public void print_three()
+	{
+		System.out.println("Class A");
+	}
+}
 
