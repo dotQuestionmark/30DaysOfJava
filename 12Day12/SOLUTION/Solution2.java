@@ -16,7 +16,7 @@ public class Files {
 	int two = scan.newInt();         //input no from user
         FileWriter fWriter = null;
         BufferedWriter writer = null;
-	try {
+	try {                               //saving data to file
           fWriter = new FileWriter("newfile.txt");
           writer = new BufferedWriter(fWriter);
           writer.write(text);
@@ -62,6 +62,8 @@ public class Files {
 				System.out.println("Error in InputStream close(): " + ioe);
 			}
 		}
+
+		//Converting file to raed only mode 
 		BufferedReader br = null;
 		BufferedReader br2 = null;
 		try {
