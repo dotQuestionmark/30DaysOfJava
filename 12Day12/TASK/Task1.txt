@@ -1,0 +1,3 @@
+Task one is that you have to write a code that works as username and password field where
+USERNAME cannot be started with a space or numbers or any special charaters, it must start from a-z and then it can contain number but cannot contain any special characters
+PASSWORD length must be greater then 6 
