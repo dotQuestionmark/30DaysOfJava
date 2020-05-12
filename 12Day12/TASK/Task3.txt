@@ -1,0 +1,2 @@
+Task 3 write a code for inheritacne where class A is inherited by class B and class C then b and c are inherited by Class D
+                                   
