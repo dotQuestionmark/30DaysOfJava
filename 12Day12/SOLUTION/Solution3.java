@@ -10,3 +10,11 @@ class B
 	}
 }
 
+class C
+{
+	public void print_two()
+	{
+		System.out.println("Class C");
+	}
+}
+
