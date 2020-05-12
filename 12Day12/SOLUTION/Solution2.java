@@ -84,3 +84,17 @@ public class Files {
 				ch = (char) num;
 				System.out.print(ch);
 			}
+			} catch (IOException ioe) {
+			ioe.printStackTrace();
+		} finally {
+			try {
+				if (br != null)
+					br.close();
+				if (br2 != null)
+					br2.close();
+			} catch (IOException ioe) {
+				System.out.println("Error in closing the BufferedReader");
+			}
+		}
+	}
+}
