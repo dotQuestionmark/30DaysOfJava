@@ -16,3 +16,13 @@ public class Files {
 	int two = scan.newInt();         //input no from user
         FileWriter fWriter = null;
         BufferedWriter writer = null;
+	try {
+          fWriter = new FileWriter("newfile.txt");
+          writer = new BufferedWriter(fWriter);
+          writer.write(text);
+          writer.newLine();
+          writer.close();
+          System.err.println("Your input of " + text.length() + " characters was saved.");
+        } catch (Exception e) {
+            System.out.println("Error!");
+        }
