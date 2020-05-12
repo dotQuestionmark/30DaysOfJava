@@ -1,0 +1,1 @@
+write a code that diveds array into subarray
