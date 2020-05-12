@@ -62,3 +62,5 @@ public class Files {
 				System.out.println("Error in InputStream close(): " + ioe);
 			}
 		}
+		BufferedReader br = null;
+		BufferedReader br2 = null;
