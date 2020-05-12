@@ -1,0 +1,2 @@
+Write a code for stack oerations
+
