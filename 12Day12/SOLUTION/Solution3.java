@@ -31,4 +31,15 @@ class D extends B,c
 		System.ot.println("Class D");
 	}
 }
+public class main
+{
+	public static void main(String[] args)
+	{
+		A a= new A();
+		a.print_three();
+		D d= new D();
+		d.print_four();
+	}
+}
+
 
