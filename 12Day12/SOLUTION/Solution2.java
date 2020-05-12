@@ -26,3 +26,8 @@ public class Files {
         } catch (Exception e) {
             System.out.println("Error!");
         }
+
+	// Specify the path of the file here
+		File file = new File("D:\\JAVA\\newfile.txt");
+		BufferedInputStream bis = null;
+		FileInputStream fis = null;
