@@ -74,3 +74,13 @@ public class Files {
 				System.out.println(contentLine);
 				contentLine = br.readLine();
 			}
+			br2 = new BufferedReader(new FileReader("G:\\HACKERRANK\\JAVAFORDUMMIES\\src\\DAY6\\newfile.txt"));
+
+			// Second way of reading the file
+			System.out.println("Reading the file using read() method(2):");
+			int num = 0;
+			char ch;
+			while ((num = br2.read()) != -1) {
+				ch = (char) num;
+				System.out.print(ch);
+			}
