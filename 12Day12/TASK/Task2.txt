@@ -1,0 +1,1 @@
+Task two is to take number of inputs and then store that into a file after completion make that file as read only mode.
