@@ -24,4 +24,11 @@ class A extends B,C
 		System.out.println("Class A");
 	}
 }
+class D extends B,c
+{
+	public void print_four()
+	{
+		System.ot.println("Class D");
+	}
+}
 
