@@ -1,3 +1,5 @@
+//MWTHOD ONE FOR OVERRIDING
+
 class MyBaseClass{
    protected void disp()
    {
@@ -13,6 +15,8 @@ class MyChildClass extends MyBaseClass{
       obj.disp();
    }
 }
+
+//METHOD TWO FOR OVERRIDING
 
 class ABC{
    public void myMethod()
