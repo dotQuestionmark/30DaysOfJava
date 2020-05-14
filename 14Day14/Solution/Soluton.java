@@ -7,3 +7,5 @@ String name = "";
 System.out.println("Please enter your name: ");
 name = input.nextLine();
 
+name= name.toLowerCase();
+
