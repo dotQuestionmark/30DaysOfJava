@@ -28,4 +28,15 @@ class arrayQueue
     {
         return front==0 && rear == size -1 ;
     }    
-    /*  Function to get the size of the queue */ 
+    /*  Function to get the size of the queue */
+     public int getSize()
+    {
+        return len ;
+    }
+    /*  Function to check the front element of the queue */
+    public int peek()
+    {
+        if (isEmpty())
+           throw new NoSuchElementException("Underflow Exception");
+        return Queue[front];
+    }
