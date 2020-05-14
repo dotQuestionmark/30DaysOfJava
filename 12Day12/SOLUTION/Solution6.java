@@ -50,3 +50,18 @@ class GFG
                 }
             }
         }
+	// Returns the minimum sum
+        // in K parts
+        return dp[0][k];
+    }
+
+    // Driver code
+    public static void main (String[] args)
+    {
+        int arr[] = { 2, 9, 5, 4, 8, 3, 6 };
+        int n = arr.length;
+        int k = 2;
+
+        System.out.println(divideArray(arr, n, k));
+    }
+}
