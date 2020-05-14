@@ -133,3 +133,31 @@ public class QueueImplement
                     System.out.println("Error : " +e.getMessage());
                 }
                 break;
+		case 3 :
+                try
+                {
+                    System.out.println("Peek Element = "+q.peek());
+                }
+                catch(Exception e)
+                {
+                    System.out.println("Error : "+e.getMessage());
+                }
+                break;
+            case 4 :
+                System.out.println("Empty status = "+q.isEmpty());
+                break;
+            case 5 :
+                System.out.println("Full status = "+q.isFull());
+                break;
+            case 6 :
+                System.out.println("Size = "+ q.getSize());
+                break;
+            default : System.out.println("Wrong Entry \n ");
+                break;
+            }
+            /* display Queue */
+            q.display();
+            System.out.println("\nDo you want to continue (Type y or n) \n");
+            ch = scan.next().charAt(0);
+
+        } while (ch == 'Y'|| ch == 'y');
