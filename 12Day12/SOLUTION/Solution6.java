@@ -26,4 +26,27 @@ class GFG
                 dp[i][j] = Integer.MAX_VALUE;  
       
                 // Max element and the sum  
-                int max_ = -1, sum = 0;    
+                int max_ = -1, sum = 0; 
+		 // Run a loop from i to n
+                for (int l = i; l < n; l++)
+                {
+                    // Find the maximum number
+                    // from i to l and the sum
+                    // from i to l
+                    max_ = Math.max(max_, arr[l]);
+                    sum += arr[l];
+
+                    // Find the sum of difference
+                    // of every element with the
+                    // maximum element
+                    int diff = (l - i + 1) * max_ - sum;
+
+                    // If the array can be divided
+                    if (j > 0)
+                        dp[i][j] = Math.min(dp[i][j], diff +
+                                            dp[l + 1][j - 1]);
+                    else
+                        dp[i][j] = diff;
+                }
+            }
+        }
