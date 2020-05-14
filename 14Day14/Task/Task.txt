@@ -1,0 +1,1 @@
+Write a exception handeling program for only taking a string As an input
