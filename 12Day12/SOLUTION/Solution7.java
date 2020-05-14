@@ -70,3 +70,14 @@ class Stack
 	{
 		return top == capacity - 1;	// or return size() == capacity;
 	}
+	public static void main (String[] args)
+	{
+		Stack stack = new Stack(3);
+
+		stack.push(1);		// Inserting 1 in the stack
+		stack.push(2);		// Inserting 2 in the stack
+
+		stack.pop();		// removing the top 2
+		stack.pop();		// removing the top 1
+
+		stack.push(3);		// Inserting 3 in the stack
