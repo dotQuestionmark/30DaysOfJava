@@ -16,4 +16,14 @@ class GFG
                 dp[i][j] = 0; 
                   
         k -= 1;  
-       
+      // Fill up the dp table  
+        for (i = n - 1; i >= 0; i--)  
+        {  
+            for (j = 0; j <= k; j++)  
+            {  
+                  
+                // Intitilize maximum value  
+                dp[i][j] = Integer.MAX_VALUE;  
+      
+                // Max element and the sum  
+                int max_ = -1, sum = 0;    
