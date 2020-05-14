@@ -40,3 +40,50 @@ class arrayQueue
            throw new NoSuchElementException("Underflow Exception");
         return Queue[front];
     }
+     public void insert(int i)
+    {
+        if (rear == -1)
+        {
+            front = 0;
+            rear = 0;
+            Queue[rear] = i;
+        }
+        else if (rear + 1 >= size)
+            throw new IndexOutOfBoundsException("Overflow Exception");
+        else if ( rear + 1 < size)
+            Queue[++rear] = i;
+        len++ ;
+    }
+    /*  Function to remove front element from the queue */
+    public int remove()
+    {
+        if (isEmpty())
+           throw new NoSuchElementException("Underflow Exception");
+        else
+        {
+            len-- ;
+            int ele = Queue[front];
+            if ( front == rear)
+            {
+                front = -1;
+                rear = -1;
+            }
+            else
+                front++;
+            return ele;
+        }
+    }
+    /*  Function to display the status of the queue */
+    public void display()
+    {
+        System.out.print("\nQueue = ");
+        if (len == 0)
+        {
+            System.out.print("Empty\n");
+            return ;
+        }
+        for (int i = front; i <= rear; i++)
+            System.out.print(Queue[i]+" ");
+        System.out.println();
+    }
+}
