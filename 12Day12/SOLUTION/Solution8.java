@@ -87,3 +87,7 @@ class arrayQueue
         System.out.println();
     }
 }
+/* Class QueueImplement  */
+public class QueueImplement
+{
+    public static void main(String[] args)
