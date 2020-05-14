@@ -81,3 +81,15 @@ class Stack
 		stack.pop();		// removing the top 1
 
 		stack.push(3);		// Inserting 3 in the stack
+		System.out.println("Top element is: " + stack.peek());
+		System.out.println("Stack size is " + stack.size());
+
+		stack.pop();		// removing the top 3
+
+		// check if stack is empty
+		if (stack.isEmpty())
+			System.out.println("Stack Is Empty");
+		else
+			System.out.println("Stack Is Not Empty");
+	}
+}
