@@ -1,0 +1,1 @@
+go through the files and understand the functioning of interface in java 
