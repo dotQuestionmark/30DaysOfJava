@@ -1,0 +1,1 @@
+todays task would be tp use interface in your java program and write a program using interface
