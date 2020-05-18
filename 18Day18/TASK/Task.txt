@@ -1,0 +1,2 @@
+write a program in which you take input as n number of courses without using an array
+and print it 
