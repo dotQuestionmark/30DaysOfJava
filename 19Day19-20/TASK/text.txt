@@ -1,0 +1,8 @@
+guys it time that we should move to some advance java 
+so brfore we do that in our final week i need you all to practice all the concepts so far and practice and upload some code on following topics 
+1) A bank applictaion that reads from a file following details :-
+  A) name account tpye 
+  B) then option for user to either deposite or tranfer and withdraw depending on the account tpye 
+  C) account can only be of two tpyes savings and checkings you can make them function on there own 
+  D) use interface to set the intrest rates for the given accounts
+
