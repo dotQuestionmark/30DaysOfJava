@@ -1,0 +1,5 @@
+you might be wondering why trees and graphs but if you see these are more oftenly used while solving problem statements in the competiontion at google level 
+so your task would be go through them understand there basic functioning and we will countinue to understand and learn how to utilize them more efficiently
+
+1) after going through todays code upload a paragraph describing the benifits about trees and graph utility in the sol forlder
+
