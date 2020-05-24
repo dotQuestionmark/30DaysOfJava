@@ -1,0 +1,1 @@
+Todays task will be just to go through the source code that i picked from geeks for geeks so that before i upload my detailed code on nqueens you all should be on the same page to understand what actually is happenig here you all can also refer the text that i shared on DAY22
