@@ -1,0 +1,2 @@
+ i thught befor going on  we all should be on the same page and n queens problem makes your java fundementals clear so for that as many of you were facing problem in that here is a code from geeks for geeks
+ go through it try to understand the work flow tommorow i will upload a detailed source code that will make you understanding about n queens algorith more easy 
