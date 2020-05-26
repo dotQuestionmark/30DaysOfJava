@@ -1,0 +1,1 @@
+ I tried to make it as simple as i could and i hope that you will try to write the solution to the eight queens problem on your own and push that in sol folder 
