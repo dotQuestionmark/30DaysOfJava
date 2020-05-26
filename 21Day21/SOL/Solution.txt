@@ -1,0 +1,2 @@
+Advantages of trees
+Trees reflect structural relationships in the data. Trees are used to represent hierarchies. Trees provide an efficient insertion and searching. Trees are very flexible data, allowing to move subtrees around with minumum effort.
