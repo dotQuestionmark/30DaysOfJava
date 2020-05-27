@@ -1,0 +1,1 @@
+Todays task wolud be to analize these algorithms and try to understand whats happening in them
