@@ -1,0 +1,3 @@
+These last few days have been hard so lets go slow today we almost finished pretty much everything
+1) go through the given examples and understand what is regex 
+2) it helps you to manipulate strings and patterns hint from me 
