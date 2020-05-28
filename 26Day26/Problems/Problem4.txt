@@ -1,0 +1,1 @@
+You are given a rectangle of length a and width b. You are required to determine a circle that contains the maximum circumference that fits inside the rectangle. This type of circle is called a big circle. Your task is to determine the maximum number of big circles that can fit inside the rectangle. 
