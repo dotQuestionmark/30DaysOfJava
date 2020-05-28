@@ -1,0 +1,4 @@
+Advantages of trees
+Trees reflect structural relationships in the data. Trees are used to represent hierarchies. Trees provide an efficient insertion and searching. Trees are very flexible data, allowing to move subtrees around with minumum effort.
+
+By using graphs you can create any social network site. As persons represent to vertices while connection between them is edge. Graphs are easy to implement by using list or array. You have this flexibility to choose represention according to your requirement.
