@@ -1,0 +1,3 @@
+understand the basic functioning of JFrame in java
+
+write a program for a simple calculator using jframe
