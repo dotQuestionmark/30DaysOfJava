@@ -94,5 +94,10 @@ public class NQueenProblem {
         printSolution(board);
         return true;
     }
-
-   
+	 // driver program to test above function 
+    public static void main(String args[]) 
+    { 
+        NQueenProblem Queen = new NQueenProblem(); 
+        Queen.solveNQ(); 
+    } 
+}  
