@@ -70,4 +70,29 @@ public class NQueenProblem {
         /* If the queen can not be placed in any row in 
            this colum col, then return false */
         return false; 
-    } 
+    }
+    /* This function solves the N Queen problem using
+       Backtracking.  It mainly uses solveNQUtil () to
+       solve the problem. It returns false if queens
+       cannot be placed, otherwise, return true and
+       prints placement of queens in the form of 1s.
+       Please note that there may be more than one
+       solutions, this function prints one of the
+       feasible solutions.*/
+    boolean solveNQ()
+    {
+        int board[][] = { { 0, 0, 0, 0 },
+                          { 0, 0, 0, 0 },
+                          { 0, 0, 0, 0 },
+                          { 0, 0, 0, 0 } };
+
+        if (solveNQUtil(board, 0) == false) {
+            System.out.print("Solution does not exist");
+            return false;
+        }
+
+        printSolution(board);
+        return true;
+    }
+
+   
