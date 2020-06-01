@@ -117,3 +117,26 @@ class calculator extends JFrame implements ActionListener {
         f.setSize(200, 220);
         f.show();
     }
+    public void actionPerformed(ActionEvent e)
+    {
+        String s = e.getActionCommand();
+
+        // if the value is a number
+        if ((s.charAt(0) >= '0' && s.charAt(0) <= '9') || s.charAt(0) == '.') {
+            // if operand is present then add to second no
+            if (!s1.equals(""))
+                s2 = s2 + s;
+            else
+                s0 = s0 + s;
+
+            // set the value of text
+            l.setText(s0 + s1 + s2);
+        }
+        else if (s.charAt(0) == 'C') {
+            // clear the one letter
+            s0 = s1 = s2 = "";
+
+            // set the value of text
+            l.setText(s0 + s1 + s2);
+        }
+        else if (s.charAt(0) == '=') {
