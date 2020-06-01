@@ -66,3 +66,24 @@ class calculator extends JFrame implements ActionListener {
 
         // create . button
         be = new JButton(".");
+	// create a panel
+        JPanel p = new JPanel();
+
+        // add action listeners
+        bm.addActionListener(c);
+        bd.addActionListener(c);
+        bs.addActionListener(c);
+        ba.addActionListener(c);
+        b9.addActionListener(c);
+        b8.addActionListener(c);
+        b7.addActionListener(c);
+        b6.addActionListener(c);
+        b5.addActionListener(c);
+        b4.addActionListener(c);
+        b3.addActionListener(c);
+        b2.addActionListener(c);
+        b1.addActionListener(c);
+        b0.addActionListener(c);
+        be.addActionListener(c);
+        beq.addActionListener(c);
+        beq1.addActionListener(c);
