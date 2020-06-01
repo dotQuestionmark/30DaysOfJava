@@ -40,3 +40,15 @@ public class Queens {
             return false;
         }
     }
+
+    // post: searches for a solution to the 8 queens problem with this
+    //       board, reporting result.
+    public static void solve(Board solution) {
+        if (!explore(solution, 1))
+            System.out.println("No solution.");
+        else {
+            System.out.println("One solution is as follows:");
+            solution.print();
+        }
+    }
+}
