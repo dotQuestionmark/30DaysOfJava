@@ -53,3 +53,16 @@ class calculator extends JFrame implements ActionListener {
         b7 = new JButton("7");
         b8 = new JButton("8");
         b9 = new JButton("9");
+
+	// equals button
+        beq1 = new JButton("=");
+
+        // create operator buttons
+        ba = new JButton("+");
+        bs = new JButton("-");
+        bd = new JButton("/");
+        bm = new JButton("*");
+        beq = new JButton("C");
+
+        // create . button
+        be = new JButton(".");
