@@ -177,3 +177,12 @@ class calculator extends JFrame implements ActionListener {
                     te = (Double.parseDouble(s0) / Double.parseDouble(s2));
                 else
                     te = (Double.parseDouble(s0) * Double.parseDouble(s2));
+		// convert it to string
+                s0 = Double.toString(te);
+
+                // place the operator
+                s1 = s;
+
+                // make the operand blank
+                s2 = "";
+            }
