@@ -19,3 +19,24 @@ public class Queens {
         System.out.println("that no two queens threaten each other.");
         System.out.println();
     }
+    // pre : queens have been safely placed in columns 1 through (col - 1)
+    // post: recursively searchs the board for a solution starting at col,
+    //       returning true iff such a solution occurs and storing the
+    //       solution in board if it exists
+    public static boolean explore(Board b, int col) {
+        if (col > b.size())
+            return true;
+        else {
+            for (int row = 1; row <= b.size(); row++)
+                if (b.safe(row, col)) {
+                    b.place(row, col);
+		    for (int i = 1; i < col; i++)
+			System.out.print("   ");
+		    System.out.println("Q in row " + row + " of col " + col);
+                    if (explore(b, col + 1))
+                        return true;
+                    b.remove(row, col);
+                }
+            return false;
+        }
+    }
