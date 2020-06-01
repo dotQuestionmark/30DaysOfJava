@@ -24,3 +24,10 @@ class calculator extends JFrame implements ActionListener {
     { 
         // create a frame 
         f = new JFrame("calculator"); 
+	try {
+            // set look and feel
+            UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
+        }
+        catch (Exception e) {
+            System.err.println(e.getMessage());
+        }
