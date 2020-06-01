@@ -12,3 +12,10 @@ public class Queens {
         Board b = new Board(size);
         solve(b);
     }
+    // post: explains program to user
+    public static void giveIntro() {
+        System.out.println("This program solves the classic '8 queens'");
+        System.out.println("problem, placing queens on a chessboard so");
+        System.out.println("that no two queens threaten each other.");
+        System.out.println();
+    }
