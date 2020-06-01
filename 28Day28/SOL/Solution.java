@@ -186,3 +186,8 @@ class calculator extends JFrame implements ActionListener {
                 // make the operand blank
                 s2 = "";
             }
+	     // set the value of text
+            l.setText(s0 + s1 + s2);
+        }
+    }
+}
