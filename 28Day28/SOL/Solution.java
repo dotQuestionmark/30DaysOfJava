@@ -160,3 +160,15 @@ class calculator extends JFrame implements ActionListener {
 
             s1 = s2 = "";
         }
+	else {
+            // if there was no operand
+            if (s1.equals("") || s2.equals(""))
+                s1 = s;
+            // else evaluate
+            else {
+                double te;
+
+                // store the value in 1st
+                if (s1.equals("+"))
+                    te = (Double.parseDouble(s0) + Double.parseDouble(s2));
+                else if (s1.equals("-"))
